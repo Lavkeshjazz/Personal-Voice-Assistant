@@ -1,2 +1,2 @@
-newsapi = "03e62e05d36341febdcbdd11d1986b64"
-api_AI = "sk-proj-IwBBOQTjGJBgIiDfFTeBT3BlbkFJoua8gyUvkrrnwblN2hQ3"
+#misc
+.env.local

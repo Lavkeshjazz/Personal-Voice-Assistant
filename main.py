@@ -10,7 +10,7 @@ from gtts import gTTS
 
 recognizer = sr.Recognizer()
 ttsx = pyttsx3.init()  # Initialization
-
+newsapi = "03e62e05d36341febdcbdd11d1986b64"
 
 # This function will speak the text provided
 def speak_old(text):
@@ -34,7 +34,7 @@ def speak(text):
 
 
 def aiProcess(command):
-    #client = OpenAI(api_key=api_AI)
+    client = OpenAI(api_key="sk-proj-IwBBOQTjGJBgIiDfFTeBT3BlbkFJoua8gyUvkrrnwblN2hQ3")
     completion = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
